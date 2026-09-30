@@ -1,0 +1,1 @@
+cpp/constant-comparison	Comparison is always true because fd >= 0.	assistant2.c	310

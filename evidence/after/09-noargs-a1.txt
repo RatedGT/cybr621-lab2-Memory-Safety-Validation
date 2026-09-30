@@ -1,0 +1,1 @@
+Usage: ./assistant1 <username> <log_message>

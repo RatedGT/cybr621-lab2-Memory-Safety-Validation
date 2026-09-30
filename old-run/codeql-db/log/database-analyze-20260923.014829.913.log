@@ -1,0 +1,30 @@
+[2026-09-23 01:48:29] This is codeql database analyze ./codeql-db codeql/cpp-queries:codeql-suites/cpp-security-and-quality.qls --format=sarif-latest --output=codeql-results.sarif --download
+[2026-09-23 01:48:29] Log file was started late.
+[2026-09-23 01:48:29] [DETAILS] database analyze> Downloading queries...
+[2026-09-23 01:48:29] Running plumbing command: codeql pack download --format json --qlconfig-file=/workspaces/cybr621-lab2-Memory-Safety-Validation/qlconfig.yml -- codeql/cpp-queries:codeql-suites/cpp-security-and-quality.qls
+[2026-09-23 01:48:29] [PROGRESS] pack download> Package specifications to check for download: codeql/cpp-queries:codeql-suites/cpp-security-and-quality.qls
+[2026-09-23 01:48:30] Calling plumbing command: codeql resolve queries --qlconfig-file=/workspaces/cybr621-lab2-Memory-Safety-Validation/qlconfig.yml --format installedpacks codeql/cpp-queries:codeql-suites/cpp-security-and-quality.qls
+[2026-09-23 01:48:30] Plumbing command codeql resolve queries completed:
+                      {
+                        "installedPacks" : [
+                          "codeql/cpp-queries@latest"
+                        ]
+                      }
+[2026-09-23 01:48:30] [DETAILS] pack download> Packaging> Requesting package versions of codeql/cpp-queries from https://ghcr.io/v2/codeql/cpp-queries/tags/list?n=100
+[2026-09-23 01:48:30] [DETAILS] pack download> Packaging> Requesting package versions of codeql/cpp-queries from https://ghcr.io/v2/codeql/cpp-queries/tags/list?n=100&last=1.5.4
+[2026-09-23 01:48:30] [DETAILS] pack download> Packaging> Downloading package to '/tmp/codeql-packaging142475183840107036/.cache/0/codeql/cpp-queries.tgz'
+[2026-09-23 01:48:30] [DETAILS] pack download> Packaging> GET Blob 'https://ghcr.io/v2/codeql/cpp-queries/blobs/sha256:ead58b76b87e6460fb7f148f6208244ecf0ab9bebd924d50526446ebbcba4b1e'
+[2026-09-23 01:48:31] [DETAILS] pack download> Packaging> RESPONSE 'HTTP/1.1 200 OK'
+[2026-09-23 01:48:31] [DETAILS] pack download> Packaging> Downloading package to '/tmp/codeql-packaging142475183840107036/.cache/0/codeql/cpp-queries.tgz'
+[2026-09-23 01:48:31] [DETAILS] pack download> Unzipping package to '/home/codespace/.codeql/packages/codeql/cpp-queries/1.9.0'
+[2026-09-23 01:48:32] Plumbing command codeql pack download completed.
+[2026-09-23 01:48:32] [PROGRESS] database analyze> Running queries.
+[2026-09-23 01:48:32] Running plumbing command: codeql database run-queries --evaluator-log-level=5 --warnings=show --qlconfig-file=/workspaces/cybr621-lab2-Memory-Safety-Validation/qlconfig.yml --dynamic-join-order-mode=none --no-rerun --interpret-passthrough=null,--format=sarif-latest,-o=/workspaces/cybr621-lab2-Memory-Safety-Validation/codeql-results.sarif,--max-paths=4,--csv-location-format=line-column,--print-diagnostics-summary,--print-metrics-summary,--qlconfig-file=/workspaces/cybr621-lab2-Memory-Safety-Validation/qlconfig.yml,--,/workspaces/cybr621-lab2-Memory-Safety-Validation/codeql-db,codeql/cpp-queries:codeql-suites/cpp-security-and-quality.qls -- /workspaces/cybr621-lab2-Memory-Safety-Validation/codeql-db codeql/cpp-queries:codeql-suites/cpp-security-and-quality.qls
+[2026-09-23 01:48:32] Calling plumbing command: codeql resolve ram --dataset=/workspaces/cybr621-lab2-Memory-Safety-Validation/codeql-db/db-cpp --format=json
+[2026-09-23 01:48:32] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx1253M"
+                      ]
+[2026-09-23 01:48:33] Chaining via /tmp/codeql.yV7UlkKR to plumbing: execute queries -J-Xmx1253M --verbosity=progress --logdir=/workspaces/cybr621-lab2-Memory-Safety-Validation/codeql-db/log --evaluator-log-level=5 --warnings=show --qlconfig-file=/workspaces/cybr621-lab2-Memory-Safety-Validation/qlconfig.yml --dynamic-join-order-mode=none --no-rerun --interpret-passthrough=null,--format=sarif-latest,-o=/workspaces/cybr621-lab2-Memory-Safety-Validation/codeql-results.sarif,--max-paths=4,--csv-location-format=line-column,--print-diagnostics-summary,--print-metrics-summary,--qlconfig-file=/workspaces/cybr621-lab2-Memory-Safety-Validation/qlconfig.yml,--,/workspaces/cybr621-lab2-Memory-Safety-Validation/codeql-db,codeql/cpp-queries:codeql-suites/cpp-security-and-quality.qls --output=/workspaces/cybr621-lab2-Memory-Safety-Validation/codeql-db/results -- /workspaces/cybr621-lab2-Memory-Safety-Validation/codeql-db/db-cpp codeql/cpp-queries:codeql-suites/cpp-security-and-quality.qls
+[2026-09-23 01:48:33] Plumbing command codeql database run-queries completed with status 70.
+[2026-09-23 01:48:33] Exiting with code 70

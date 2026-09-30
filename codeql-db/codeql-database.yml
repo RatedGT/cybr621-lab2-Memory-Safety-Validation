@@ -1,0 +1,13 @@
+---
+sourceLocationPrefix: /workspaces/cybr621-lab2-Memory-Safety-Validation
+baselineLinesOfCode: 959
+unicodeNewlines: false
+columnKind: utf8
+primaryLanguage: cpp
+creationMetadata:
+  sha: bddd60472f80c5acb7b15e6fee55c0bb5e1519f0
+  cliVersion: 2.27.1
+  creationTime: 2026-09-30T14:33:11.495031382Z
+overlayBaseDatabase: false
+overlayDatabase: false
+finalised: true
