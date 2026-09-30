@@ -1,0 +1,5 @@
+[Wed Sep 30 14:08:13 2026] student1: User successfully logged in
+2026-09-30T14:08:13Z | user=student2 | msg=User successfully logged in
+[Wed Sep 30 14:09:29 2026] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA: Test message
+[Wed Sep 30 14:09:29 2026] student1: normal entry
+FAKE_ADMIN: password changed

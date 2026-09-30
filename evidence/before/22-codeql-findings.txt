@@ -1,0 +1,2 @@
+cpp/constant-comparison	Comparison is always true because fd >= 0.	assistant2.c	310
+cpp/world-writable-file-creation	A file may be created here with mode 0666, which would make it world-writable.	assistant1.c	16

@@ -1,0 +1,1 @@
+Error: invalid username (1-32 chars, [A-Za-z0-9._-], must not start with '-').
