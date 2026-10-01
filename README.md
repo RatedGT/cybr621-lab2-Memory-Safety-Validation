@@ -1,7 +1,9 @@
 # CYBR 621 Lab 2 – AI Code Review, Static Analysis & Memory Safety
 
 **Name:** Gregory Theriault
+
 **Course:** CYBR 621 – Secure System Programming, Metropolitan State University
+
 **Environment:** GitHub Codespaces (Linux), GCC, ASan/UBSan, Semgrep, CodeQL (`gh codeql`)
 
 ## Overview
