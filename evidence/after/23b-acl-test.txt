@@ -1,0 +1,28 @@
+-rw-rw-rw- 666 acltest_ws.txt
+-rw-r--rw- 646 /tmp/acltest_tmp.txt
+/dev/loop4 on /workspaces type ext4 (rw,nodev,relatime)
+/dev/loop4 on /workspaces/.codespaces/.persistedshare type ext4 (rw,nodev,relatime)
+/dev/sda1 on /workspaces/.codespaces/shared type ext4 (rw,relatime,discard,errors=remount-ro)
+0022
+getfacl: Removing leading '/' from absolute path names
+# file: workspaces/cybr621-lab2-Memory-Safety-Validation
+# owner: codespace
+# group: root
+user::rwx
+group::rwx
+other::rwx
+default:user::rwx
+default:group::rwx
+default:other::rwx
+
+# file: tmp
+# owner: root
+# group: root
+# flags: --t
+user::rwx
+group::r-x
+other::rwx
+default:user::rwx
+default:group::r-x
+default:other::rw-
+
