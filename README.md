@@ -1,13 +1,13 @@
 # CYBR 621 Lab 2 – AI Code Review, Static Analysis & Memory Safety
 
-**Student:** Gregory Theriault
+**Name:** Gregory Theriault
 **Course:** CYBR 621 – Secure System Programming, Metropolitan State University
 **Environment:** GitHub Codespaces (Linux), GCC, ASan/UBSan, Semgrep, CodeQL (`gh codeql`)
 
 ## Overview
 Two AI assistants generated C programs that append a username and message to `userlog.txt`.
-- `assistant1.c`: basic prompt
-- `assistant2.c`: "secure" prompt (input validation, safe file handling)
+- `assistant1.c`: basic prompt (ChatGPT - 5.6-Luna - free version)
+- `assistant2.c`: "secure" prompt (input validation, safe file handling) (Claude - Opus 5.5 Medium - pro plan)
 
 Both programs were built, tested, scanned, remediated, and revalidated. All evidence was saved
 before and after remediation so results can be compared and reproduced.
