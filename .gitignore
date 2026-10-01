@@ -1,0 +1,10 @@
+codeql-db/
+codeql-db/
+old-run/
+*.o
+assistant1
+assistant2
+*_san
+userlog.txt
+/codeql-results.sarif
+/semgrep-results.json
